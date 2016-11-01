@@ -41,3 +41,4 @@ while secret == None:
                         char_to_add = unichr(char_to_add)
                         password = password + char_to_add
                         char_to_add = 'a'
+os.system('rm -rf admin_secret.txt admin_output.txt')
