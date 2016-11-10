@@ -11,7 +11,6 @@ else:
         #charlie's password is known
         charlie_passwd = 'charliethree'
         user_input = sys.argv[1].strip()
-
         if user_input in user_list:
                 #execute user-secret with charlie/../user_input as the username and charliethree as the correct password
                 command = '/home/bob/Public/user-secret charlie/../' + user_input + ' ' + charlie_passwd
